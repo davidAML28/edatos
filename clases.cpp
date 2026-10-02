@@ -25,6 +25,6 @@ class Point {
 
         Point* pp = &p; // a pointer to that same object
         pp->move(1, 1); // same call through pp: p is now (5, 9)
-        cout << "David M" << endl;
+        cout << "David M " << p.getX() << endl;
  // p.x = 99; // rejected: x is private
     }
